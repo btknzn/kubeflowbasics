@@ -9,3 +9,4 @@ kubectl logs -n kubeflow my-pipeline-hnl62-506235080
 docker build -t download_and_extract_frames_with_open:latest .
 kind load docker-image download_and_extract_frames_with_open:latest
 
+
